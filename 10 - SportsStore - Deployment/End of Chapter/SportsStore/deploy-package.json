@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.12.1",
+        "bootstrap": "4.4.1"
+    },
+  
+    "devDependencies": {
+      "json-server": "0.16.0",
+      "jsonwebtoken": "8.5.1",
+      "express": "4.17.1",
+      "https": "1.0.0",
+      "connect-history-api-fallback": "1.6.0"       
+    },
+  
+    "scripts": {
+      "start":  "node server.js"
+    }
+  }
+  
