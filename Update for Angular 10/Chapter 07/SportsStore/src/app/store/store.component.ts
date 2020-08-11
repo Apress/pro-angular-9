@@ -7,9 +7,9 @@ import { ProductRepository } from "../model/product.repository";
     templateUrl: "store.component.html"
 })
 export class StoreComponent {
-    public selectedCategory = null;
-    public productsPerPage = 4;
-    public selectedPage = 1;
+    public selectedCategory: string = null;
+    public productsPerPage: number = 4;
+    public selectedPage: number = 1;
 
     constructor(private repository: ProductRepository) {}
 
