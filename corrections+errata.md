@@ -11,6 +11,16 @@ On page 15, Listing 2-7 does not show the concise constructor described in the t
 
 (Thanks to Siavash Fallahdoust for reporting this problem)
 ***
+**Chapter 12**
+
+On page 263, the command to detect changes should be as follows:
+
+    appRef.tick()
+
+(Thanks to Felipe Windmoller for reporting this problem)
+
+***
+
 
 **Chapter 16**
 
