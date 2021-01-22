@@ -6,8 +6,10 @@ On page 15, Listing 2-7 does not show the concise constructor described in the t
 
     export class TodoItem {
 
-        constructor(task: string, complete: boolean = false) {
+        constructor(public task: string, public complete: boolean = false) {
+        }
     }
+
 
 (Thanks to Siavash Fallahdoust for reporting this problem)
 ***
