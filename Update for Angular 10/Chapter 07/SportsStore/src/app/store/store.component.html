@@ -28,7 +28,7 @@
           <div class="card-text bg-white p-1">{{product.description}}</div>
         </div>
   
-        <div class="form-inline float-left mr-1">
+        <div class="form-inline float-left mx-1">
           <select class="form-control" [value]="productsPerPage"
                   (change)="changePageSize($event.target.value)">
             <option value="3">3 per Page</option>
@@ -38,7 +38,7 @@
           </select>
         </div>
   
-        <div class="btn-group float-right">
+        <div class="btn-group float-right mx-1">
           <button *counter="let page of pageCount" (click)="changePage(page)"
               class="btn btn-outline-primary" [class.active]="page == selectedPage">
             {{page}}
