@@ -1,10 +1,5 @@
 export class TodoItem {
 
-    constructor(taskVal: string, completeVal: boolean = false) {
-        this.task = taskVal;
-        this.complete = completeVal;
+    constructor(public taskVal: string, public completeVal: boolean = false) {
     }
-
-    task: string;
-    complete: boolean;
 }
