@@ -38,7 +38,7 @@
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
     "json-server": "^0.16.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "karma": "~4.3.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~2.1.0",
