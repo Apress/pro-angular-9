@@ -37,7 +37,7 @@
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
-    "json-server": "^0.16.0",
+    "json-server": "^0.17.1",
     "jsonwebtoken": "^8.5.1",
     "karma": "~4.3.0",
     "karma-chrome-launcher": "~3.1.0",
